@@ -91,7 +91,7 @@ def main():
                 cv2.circle(image, (x, y), 1, (0, 100, 0), -1)
             
         
-        cv2.imshow('Face Detection', image)
+        cv2.imshow('MeowCV - Buscando Caras...', image)
 
         # Cat Display
         cat = cv2.imread(cat_image)
